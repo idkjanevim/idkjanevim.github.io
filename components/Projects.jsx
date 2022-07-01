@@ -59,14 +59,11 @@ function Projects() {
                                 way to showcase my work so I built this
                             </p>
                             <div className="d-flex justify-content-between pt-5">
-                                <a
-                                    href="https://idkjanevim.github.io/spejs-nextjs/"
-                                    className="btn btn-primary"
-                                >
+                                <a href="#" className="btn btn-primary">
                                     Go to website
                                 </a>
                                 <a
-                                    href="https://github.com/idkjanevim/spejs-nextjs"
+                                    href="https://github.com/idkjanevim/idkjanevim.github.io"
                                     className="btn btn-primary"
                                 >
                                     Go to Github page
