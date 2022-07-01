@@ -13,7 +13,7 @@ function particlesInit(tsparticles) {
     loadTrianglesPreset(tsparticles);
 }
 
-export default function index() {
+function Index() {
     const [useWindowSize, setWindowSize] = useState({
         width: undefined,
         height: undefined,
@@ -94,3 +94,5 @@ export default function index() {
         </>
     );
 }
+
+export default Index;
