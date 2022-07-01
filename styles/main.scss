@@ -1,0 +1,77 @@
+$dark: #2e0249;
+$dark2: #570a57;
+$gray: #bdbdbd;
+$pink: #f806cc;
+
+$body-bg: #2e0249;
+
+.lnk {
+    transition: all 0.3s ease-out;
+    &:hover {
+        background-color: $dark2;
+    }
+}
+a {
+    font-size: 1.3rem;
+    user-select: none;
+}
+i {
+    transition: all 0.3s ease-out;
+    font-size: 2rem;
+    &:hover {
+        font-size: 2.2rem;
+    }
+}
+.k {
+    height: 2rem;
+    width: 2rem;
+}
+body .navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 15%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+body .navbar-dark .navbar-toggler {
+    border: 1px solid white;
+}
+
+.typed-out {
+    overflow: hidden;
+    border-right: 0.15em solid orange;
+    font-size: 1.6rem;
+    width: 0;
+}
+.text-gray {
+    color: $gray;
+}
+* {
+    z-index: 1;
+}
+.prtcls {
+    z-index: -2;
+}
+.screensize {
+    height: 100vh;
+}
+.col {
+    height: fit-content;
+}
+.row {
+    height: fit-content;
+}
+.projects {
+    height: 300vh;
+}
+.r {
+    height: fit-content;
+    width: 100%;
+}
+.c {
+    height: fit-content;
+    width: 100%;
+}
+.row .message {
+    height: 5.5rem;
+}
+input {
+    color: white;
+}
+@import '../node_modules/bootstrap/scss/bootstrap';
