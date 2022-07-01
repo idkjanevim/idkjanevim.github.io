@@ -5,8 +5,8 @@ const nextConfig = {
         loader: 'akamai',
         path: '',
     },
-    basePath: '/idkjanevim.github.io',
-    assetPrefix: '/idkjanevim.github.io/',
+    basePath: '',
+    assetPrefix: '',
 };
 
 module.exports = nextConfig;

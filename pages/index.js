@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Particles from 'react-tsparticles';
 import { loadTrianglesPreset } from 'tsparticles-preset-triangles';
-import Image from 'next/image';
 import Navbar from '../components/Navbar';
 import Home from '../components/Home';
 import About from '../components/About';
