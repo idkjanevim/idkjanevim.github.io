@@ -14,7 +14,7 @@ function particlesInit(tsparticles) {
 }
 
 export default function index() {
-    const [windowSize, setWindowSize] = useState({
+    const [useWindowSize, setWindowSize] = useState({
         width: undefined,
         height: undefined,
     });
@@ -64,15 +64,15 @@ export default function index() {
                         },
                         number: {
                             value:
-                                windowSize.width < 1600 &&
-                                windowSize.width >= 1000
+                                useWindowSize.width < 1600 &&
+                                useWindowSize.width >= 1000
                                     ? 50
-                                    : windowSize.width < 1000 &&
-                                      windowSize.width >= 500
+                                    : useWindowSize.width < 1000 &&
+                                      useWindowSize.width >= 500
                                     ? 30
-                                    : windowSize.width < 500
+                                    : useWindowSize.width < 500
                                     ? 20
-                                    : windowSize.width > 1900
+                                    : useWindowSize.width > 1900
                                     ? 120
                                     : 80,
                         },
