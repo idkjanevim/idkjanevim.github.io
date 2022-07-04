@@ -1,9 +1,17 @@
 @charset "UTF-8";
+body .btn-dark2 {
+  background-color: #570a57;
+}
+
 .lnk {
   transition: all 0.3s ease-out;
 }
 .lnk:hover {
   background-color: #570a57;
+}
+
+.idk {
+  width: 100%;
 }
 
 a {
@@ -64,7 +72,7 @@ body .navbar-dark .navbar-toggler {
 }
 
 .projects {
-  height: 300vh;
+  height: 250vh;
 }
 
 .r {
@@ -87,6 +95,15 @@ input {
 
 .crsel {
   width: 700px;
+  height: 700px;
+}
+
+body .awssld__content {
+  background-color: transparent;
+}
+
+body .awssld__timer {
+  background-color: white;
 }
 
 /*!

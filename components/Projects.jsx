@@ -1,8 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import { Carousel } from 'react-responsive-carousel';
+import AwesomeSlider from 'react-awesome-slider';
+import withAutoplay from 'react-awesome-slider/dist/autoplay';
+import 'react-awesome-slider/dist/styles.css';
 
+const AutoplaySlider = withAutoplay(AwesomeSlider);
 function Projects() {
     return (
         <>
@@ -14,13 +16,15 @@ function Projects() {
             <div className="projects container">
                 <h1 className="text-white text-center pb-5">My projects</h1>
                 <h2 className="text-white text-center py-5">Web</h2>
-                <div className="d-flex justify-content-center flex-column flex-md-row">
-                    <div className="crsel">
-                        <Carousel
-                            emulateTouch={true}
-                            autoPlay={true}
-                            infiniteLoop={true}
-                            interval={5000}
+                <div className="d-flex justify-content-center">
+                    <div className="crsel my-5">
+                        <AutoplaySlider
+                            play={true}
+                            cancelOnInteraction={true}
+                            interval={6000}
+                            className="crsel"
+                            mobileTouch={true}
+
                         >
                             <div className="card mx-5 border my-5 my-md-0">
                                 <Image
@@ -83,17 +87,18 @@ function Projects() {
                                     </div>
                                 </div>
                             </div>
-                        </Carousel>
+                        </AutoplaySlider >
                     </div>
                 </div>
                 <h2 className="text-white text-center py-5">Other</h2>
-                <div className="d-flex justify-content-center flex-sm-column flex-lg-row">
-                    <div className="crsel">
-                        <Carousel
-                            emulateTouch={true}
-                            autoPlay={true}
-                            infiniteLoop={true}
-                            interval={5000}
+                <div className="d-flex justify-content-center">
+                    <div className="crsel my-5">
+                        <AutoplaySlider
+                            play={true}
+                            cancelOnInteraction={true}
+                            interval={6000}
+                            className="crsel"
+                            mobileTouch={true}
                         >
                             <div className="card mx-5 border my-5 my-md-0">
                                 <Image
@@ -121,7 +126,7 @@ function Projects() {
                                     </div>
                                 </div>
                             </div>
-                        </Carousel>
+                        </AutoplaySlider>
                     </div>
                 </div>
             </div>

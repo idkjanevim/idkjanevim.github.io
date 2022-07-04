@@ -5,11 +5,17 @@ $pink: #f806cc;
 
 $body-bg: #2e0249;
 
+body .btn-dark2{
+    background-color: $dark2;
+}
 .lnk {
     transition: all 0.3s ease-out;
     &:hover {
         background-color: $dark2;
     }
+}
+.idk{
+    width: 100%;
 }
 a {
     font-size: 1.3rem;
@@ -58,7 +64,7 @@ body .navbar-dark .navbar-toggler {
     height: fit-content;
 }
 .projects {
-    height: 300vh;
+    height: 250vh;
 }
 .r {
     height: fit-content;
@@ -76,5 +82,12 @@ input {
 }
 .crsel {
     width: 700px;
+    height: 700px
+}
+body .awssld__content{
+    background-color: transparent
+}
+body .awssld__timer{
+    background-color: white
 }
 @import '../node_modules/bootstrap/scss/bootstrap';
