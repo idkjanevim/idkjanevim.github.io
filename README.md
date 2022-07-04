@@ -11,6 +11,7 @@ I used **Next.js** and **Bootstrap** to create this simple portfolio website
 * [EmailJS](https://www.emailjs.com)
 * [React Awesome Slider](https://github.com/rcaferati/react-awesome-slider)
 * [Bootstrap](https://getbootstrap.com/)
+* [tsParticles](https://particles.js.org/)
 ***
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
