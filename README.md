@@ -1,3 +1,18 @@
+# My portfolio website  
+This is my simple responsive portfolio website  
+https://idkjanevim.github.io/
+
+# Description  
+I used **Next.js** and **Bootstrap** to create this simple portfolio website
+
+## Platforms / Technologies
+* [Next.js](https://nextjs.org/)
+* [React](https://reactjs.org)
+* [EmailJS](https://www.emailjs.com)
+* [React Awesome Slider](https://github.com/rcaferati/react-awesome-slider)
+* [Bootstrap](https://getbootstrap.com/)
+***
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
